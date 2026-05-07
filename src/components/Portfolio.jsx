@@ -110,7 +110,7 @@ function Portfolio() {
                 <img
                   src={item.media}
                   alt={item.title}
-                  className="w-full h-[500px] object-cover group-hover:scale-110 transition duration-700"
+                  className="w-full h-125 object-cover group-hover:scale-110 transition duration-700"
                 />
 
               ) : (
@@ -121,7 +121,7 @@ function Portfolio() {
                   muted
                   loop
                   playsInline
-                  className="w-full h-[500px] object-cover group-hover:scale-110 transition duration-700"
+                  className="w-full h-125 object-cover group-hover:scale-110 transition duration-700"
                 />
 
               )}
